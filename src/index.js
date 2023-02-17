@@ -11,4 +11,7 @@ function TestFunc() {
   return variable;
 }
 
+HelloWorld();
+TestFunc();
+
 module.exports = { HelloWorld, TestFunc };
