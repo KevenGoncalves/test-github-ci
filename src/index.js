@@ -1,5 +1,5 @@
 function HelloWorld() {
-  const variable = "Hello Worlds";
+  const variable = "Hello World";
   console.log(variable);
   return variable;
 }
