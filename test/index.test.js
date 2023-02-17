@@ -5,7 +5,7 @@ describe("Testing app", () => {
     expect(HelloWorld()).toBe("Hello World");
   });
 
-  test("Test Func", () => {
+  test("Test Function", () => {
     expect(TestFunc()).toBe("Test Func");
   });
 });
