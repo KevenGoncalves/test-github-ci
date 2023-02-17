@@ -8,16 +8,11 @@ app.listen(port, () =>
 );
 
 function HelloWorld() {
-  const variable = "Hello World";
-  console.log(variable);
-  return variable;
+  return "Hello World";
 }
 
 function TestFunc() {
-  const variable = "Test Function";
-  console.log(variable);
-
-  return variable;
+  return "Test Function";
 }
 
 app.get("/", (req, res) => {
