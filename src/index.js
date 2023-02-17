@@ -1,9 +1,14 @@
 function HelloWorld() {
-  return "Hello World";
+  const variable = "Hello Worlds";
+  console.log(variable);
+  return variable;
 }
 
 function TestFunc() {
-  return "Test Function";
+  const variable = "Test Function";
+  console.log(variable);
+
+  return variable;
 }
 
 module.exports = { HelloWorld, TestFunc };
