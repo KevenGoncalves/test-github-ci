@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Testing and Building
 on:
   push:
     branches: ["main"]
@@ -38,3 +38,6 @@ jobs:
         run: pnpm install
       - name: Testing app
         run: pnpm test
+      - name: Building Docker Image
+        if: success()
+        run: docker build . --file Dockerfile --tag test-github-ci:$(date +%s)
