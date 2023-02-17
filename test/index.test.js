@@ -6,6 +6,6 @@ describe("Testing app", () => {
   });
 
   test("Test Function", () => {
-    expect(TestFunc()).toBe("Test Func");
+    expect(TestFunc()).toBe("Test Function");
   });
 });
